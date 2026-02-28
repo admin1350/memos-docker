@@ -55,7 +55,7 @@ CONTAINER ID   IMAGE                       COMMAND                  CREATED     
 root@server-gw-git:/etc/docker/memos# 
 ```
 ### 3. Настраиваем nginx т.к безопаснее будет заходить на сайт по домен
-#### Если у вас не установлен `nginx` и `certbot` то устанавливаем и включаем 
+##### Если у вас не установлен `nginx` и `certbot` то устанавливаем и включаем 
 ```
 apt install certbot python3-certbot-nginx nginx
 systemctl enable --now nginx
@@ -65,7 +65,7 @@ systemctl enable --now nginx
 ```
 nano /etc/nginx/sites-available/memos.domain.com
 ```
-Содержимое `memos.domain.com`
+#### Содержимое файла `memos.domain.com`
 ```
 server {
     server_name memos.domain.com;
