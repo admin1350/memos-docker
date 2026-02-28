@@ -1,6 +1,6 @@
 # memos-docker
 ### `memos.domain.com` указан как пример
-### Up mуmos server note on docker
+### Up memos server note on docker
 ### После установки докера и докер compose 
 
 ### 1. Создадим папку для проекта
