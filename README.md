@@ -14,7 +14,7 @@ cd /etc/docker/memos
 nano docker-compose.yml
 ```
 
-#### Cодержимое `docker-compose`
+#### Cодержимое `docker-compose.yml`
 ```yml
 services:
   memos:
