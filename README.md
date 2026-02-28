@@ -89,5 +89,5 @@ systemctl restart nginx
 ```
 
 ### 5. Получение сертификата
-Пишем команду `certbot --nginx -d note-reisber.lord-mikrotik.ru` после этого вы можете переходить на доменное имя `memos.domain.com`
+Пишем команду `certbot --nginx -d memos.domain.ru` после этого вы можете переходить на доменное имя `memos.domain.com`
 
